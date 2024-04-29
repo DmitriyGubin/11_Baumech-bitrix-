@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Модельный ряд", 
+		"/#models-line-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Применение", 
+		"/#our-areas-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Навесное оборудование", 
+		"/attachments/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/#reviews-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/#contacts-scroll", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

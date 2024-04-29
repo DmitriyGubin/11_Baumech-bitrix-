@@ -1,0 +1,330 @@
+@media screen and (max-width: 1200px)
+{
+	.attach .model-name,
+	.attach .model-butt span,
+	.attach .selected-model-item span,
+	.attach #cleare-filter,
+	.attach .sort-butt,
+	.attach .filter-var-item,
+	.attach .amount,
+	.attach #filt-search-input
+	{
+		font-size: 12px;
+	}
+
+	.attach #filt-search-input,
+	.attach .sort-butt
+	{
+		height: 24px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.attach .model-arrow
+	{
+		transform: rotate(-90deg);
+	}
+
+	.attach .model-arrow.active
+	{
+		transform: rotate(0deg);
+	}
+
+	.attach .filter-mob-buts
+	{
+		display: flex !important;
+		justify-content: space-between;
+		width: 100%;
+		max-width: 600px;
+		margin: 50px auto 0px auto;
+	}
+
+	.attach #show-filters
+	{
+		display: flex;
+		align-items: center;
+	}
+
+	.attach #show-filters svg
+	{
+		width: 11px;
+		height: 17px;
+		margin-right: 10px;
+	}
+
+	.attach #show-filters span
+	{
+		font-size: 14px;
+	}
+
+	.attach #mobile-filt-loopa
+	{
+		width: 16px;
+	}
+
+	.attach .filter-box
+	{
+		flex-direction: column;
+	}
+
+	.attach .sort-box
+	{
+		order: 0;
+		width: 100%;
+	}
+
+	.attach .model-box
+	{
+		order: 1;
+	}
+
+	.attach .search-box
+	{
+		order: 2;
+	}
+
+	.attach .sort-butt
+	{
+		display: none;
+	}
+
+	.attach .filter-box
+	{
+		width: 100%;
+		max-width: 600px;
+		margin: 25px auto 0px auto;
+	}
+
+	/*.attach .filter-box.active
+	{
+		margin: 25px auto 0px auto;
+	}*/
+
+	.attach .sort-butt-mobile
+	{
+		display: flex !important;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.attach .sort-butt-mobile span
+	{
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+	.attach .sort-mobile-arrow
+	{
+		width: 12px;
+		transform: rotate(-90deg);
+	}
+
+	.attach .sort-mobile-arrow.active
+	{
+		transform: rotate(0deg);
+	}
+
+	.attach .filter-vars-box
+	{
+		position: static;
+	}
+
+	.attach .filter-var-item.hide-mobile
+	{
+		display: none;
+	}
+
+	.attach .filter-var-item 
+	{
+	    padding: 6px 0px;
+	}
+
+	.attach .filter-var-item.active
+	  {
+	    background: rgba(130,130,130,.2);
+	    color: #002338 !important;
+	  }
+
+	.attach .filter-vars-box
+	{
+		border: none;
+		box-shadow: none;
+		padding: 15px 0 5px 0;
+	}
+
+	.attach .sort-box
+	{
+		padding: 12px 0;
+		border-top: 1px solid rgba(0,0,0,.2);
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		display: none;
+	}
+
+	.attach .model-box
+	{
+		width: 100%;
+		padding: 12px 0;
+    	border-bottom: 1px solid rgba(0,0,0,.2);
+    	display: none;
+	}
+
+	.attach .model-butt
+	{
+		justify-content: space-between;
+	}
+
+	.attach .model-vars-box
+	{
+		position: static;
+		box-shadow: none;
+		width: 100%;
+		padding: 15px 0 5px 0;
+	}
+
+	.attach .input-box,
+	.attach .search-box
+	{
+		width: 100%;
+	}
+
+	.attach .search-box
+	{
+		padding: 0px;
+	}
+
+	.attach #filt-search-input
+	{
+		height: 35px;
+		padding: 0 72px 0 10px;
+	}
+
+	.attach .search-box
+	{
+		margin-top: 20px;
+		display: none;
+	}
+
+	.attach .vert-line 
+	{
+	    height: 35px;
+	    right: 40px;
+	}
+
+	.attach .loopa 
+	{
+	    width: 14px;
+	    right: 12px;
+	    top: calc(50% - 7px);
+	}
+
+	.attach .selected-cleare
+	{
+		width: 100%;
+		max-width: 600px;
+		margin: 15px auto 30px auto;
+	}
+
+	.attach .amount
+	{
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.attach .selected-model-item svg
+	{
+		width: 12px;
+	}
+
+	.attach .selected-model-item span,
+	.attach #cleare-filter
+	{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.attach .about-attach {
+	    font-size: 20px;
+	    margin: 10px auto 50px auto;
+	}
+
+	.attach #show-filters span
+	{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 1250px)
+{
+	.attach .catalog-item
+	{
+		width: 220px;
+	}
+
+	.attach .cat-img-box
+	{
+		height: 220px;
+	}
+
+	.attach .catalog-item {
+	    margin: 0 5px 90px 5px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.attach .catalog-box	
+	{
+		width: 100%;
+    	max-width: 600px;
+    	margin: 0 auto 0 auto;
+	}
+
+	.attach .catalog-item
+	{
+		width: 280px;
+	}
+
+	.attach .cat-img-box
+	{
+		height: 280px;
+	}
+}
+
+@media screen and (max-width: 650px)
+{
+
+	.attach .catalog-item
+	{
+		width: 150px;
+	}
+
+	.attach .cat-img-box {
+	    height: 150px;
+	}
+
+	.attach .catalog-item {
+	    margin: 0 0px 70px 0px;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	.attach .no-items
+	{
+		height: 350px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.attach .no-items
+	{
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+}

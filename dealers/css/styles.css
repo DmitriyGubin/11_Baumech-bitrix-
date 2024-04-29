@@ -1,0 +1,66 @@
+.contacts .button-line
+{
+  margin-top: 20px !important;
+}
+
+@media screen and (max-width: 1000px)
+{
+  .contacts .button-line
+  {
+    margin-top: 0px !important;
+  }
+}
+
+.dillers
+{
+  margin-top: 40px !important;
+}
+
+.dillers .dillers-sect
+{
+  width: 100%;
+  max-width: 900px;
+  margin: 90px auto 0 auto;
+}
+
+.dillers .dillers-sect .main-title
+{
+  text-transform: none;
+  margin-bottom: 40px;
+}
+
+.dillers .dillers-list
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dillers .ofice-item
+{
+  width: 100%;
+  max-width: 370px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.dillers .city span
+{
+  font-weight: 700 !important;
+}
+
+.dillers .city-name
+{
+  text-decoration: underline;
+}
+
+.dillers  .phone
+{
+  display: block;
+}
+
+.dillers
+{
+  
+}

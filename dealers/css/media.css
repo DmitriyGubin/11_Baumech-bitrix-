@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px)
+{
+	.dillers .dillers-sect
+	{
+		max-width: 800px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.dillers .dillers-sect {
+	    max-width: 365px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.dillers .dillers-sect .main-title
+	{
+		margin-bottom: 25px;
+	}
+
+	.dillers .ofice-item
+	{
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+
+	.dillers .dillers-sect {
+	    margin-top: 50px;
+	}
+}
